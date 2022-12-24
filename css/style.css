@@ -1,0 +1,136 @@
+/* Start Social Part */
+.social .icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    height: 50px;
+}
+.social .icons i {
+    cursor: pointer;
+}
+/* End Social Part */
+/* Start Carousel Part */
+.Carousel-p {
+    background: url(../images/1.jpg);
+    background-size: cover;
+    position: relative;
+    color: white;
+
+}
+.Carousel-p::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+.Carousel-p .parg {
+    font-size: 23px;
+}
+.Carousel-p .button {
+    margin-top: 80px;
+}
+/* End Carousel Part */
+/* Start Welcome Part */
+.welcome {
+    background-color: white;
+}
+/* End Welcome Part */
+/* Start Choose Part */
+.choose {
+    background-color: #ecffff;
+}
+.choose .row i {
+    font-size: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    margin: 20px auto;
+    background: radial-gradient(#ecffff 40%, #ffa900 41%, rgb(255 170 0 / 90%) 49%, hsl(40deg 100% 52% / 80%) 54%, #ffaa00b3 54%, #ffaa0099 55%, #ffaa0099 58%, #ffaa0066 62%, #ffaa004d 62%, #ffaa0033 63%, #ffaa001a 71%);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.choose .row p:first-of-type {
+    margin-bottom: 40px;
+}
+/* End Choose Part */
+/* Start Our-Services Part */
+.our-services {
+    background-color: white;
+}
+/* End Our-Services Part */
+/* Start Form Part */
+.form {
+    background-color: #ffbe00;
+}
+.form .row p:first-of-type {
+    font-size: 34px;
+}
+/* End Form Part */
+/* Start Footer */
+footer {
+    background-image: url(../images/6.png);
+    background-size: cover;
+    position: relative;
+}
+footer .container .row {
+    position: relative;
+    color: white;
+}
+footer::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.65);
+}
+footer .icons i {
+    width: 30px;
+    height: 30px;
+    background-color: #ffa900;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    color: rgb(2, 2, 95);
+}
+footer ul {
+    padding: 0;
+    list-style: inside;
+}
+footer ul li {
+    margin-left: 5px;
+}
+footer .content .one {
+    display: flex;
+    align-items: center;
+}
+footer .content .one i {
+    font-size: 40px;
+    display: block;
+    margin-right: 15px;
+}
+footer .content .one p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+/* End Footer */
+/* Start Copyright Part */
+.copy {
+    background-color: #293436;
+}
+.copy p {
+    text-align: center;
+    margin-bottom: 0;
+    color: white;
+}
+/* End Copyright Part */
